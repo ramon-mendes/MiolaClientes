@@ -8,15 +8,18 @@ namespace MiolaClientes
 {
 	static class Program
 	{
-		/// <summary>
-		/// The main entry point for the application.
-		/// </summary>
+		public static Form1 Screen1;
+		public static Form2 Screen2;
+
 		[STAThread]
 		static void Main()
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+
+			Screen1 = new Form1();
+			Screen2 = new Form2();
+			Application.Run(Screen1);
 		}
 	}
 }

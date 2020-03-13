@@ -19,7 +19,8 @@ namespace MiolaClientes
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			new Form2().Show();
+			Program.Screen2.NroFrangos = int.Parse(textBox1.Text);
+			Program.Screen2.Show();
 			Hide();
 		}
 	}

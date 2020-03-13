@@ -62,6 +62,7 @@
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(219, 31);
 			this.textBox1.TabIndex = 2;
+			this.textBox1.Text = "50";
 			// 
 			// label1
 			// 
@@ -83,7 +84,8 @@
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Miola Assados - sistema de controle";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
